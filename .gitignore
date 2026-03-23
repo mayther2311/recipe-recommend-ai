@@ -1,0 +1,17 @@
+# セキュリティ関連（絶対に上げない）
+apikey.env
+
+# Python関連
+__pycache__/
+.venv/
+static/*
+!static/.gitkeep
+
+# Flutter関連
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# その他
+.DS_Store
